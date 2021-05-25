@@ -6,6 +6,12 @@ import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
 import javax.swing.*;
 
+/**
+ * Program generates maze of a given time. Displays it in JFrame. The maze is playable.
+ *
+ * @author Rafal Karwowski
+ */
+
 public class Maze extends JPanel {
 
     final int nCols; // Number of columns
@@ -140,7 +146,7 @@ public class Maze extends JPanel {
 
 
     /**
-     * Generates maze using way described in "KPG1_ENG.pdf"
+     * Generating the maze
      *
      * @param r - number of rows
      * @param c - number of columns
